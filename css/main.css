@@ -1,0 +1,249 @@
+/* main CSS */
+
+/**    {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+     }
+*/
+body {
+    font-family: "Noteworthy light", Verdana, sans-serif;
+    margin: auto;
+
+}
+
+h2 {
+	font-family: "FreightSans Pro", "Helvetica Neue", Helvetica, Sans-Serif;
+	color: #05b864;
+}
+/*<-------JUMBO -------->*/
+.first-section {
+	background: url(../images/jumbotron.png) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+	border-bottom: 30px solid #05b864;
+	display: block;
+}
+
+.box {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+    position: relative;
+    color: white;
+}
+
+.box h1 {
+	margin: 120px 0 0 0;
+	font-size: 48px;
+}
+
+.box h2 {
+	font-size: 4.2rem;
+
+}
+.box h3 {
+	font-size: 1.68rem;
+}
+
+.btn-success {
+	background-color: #05b864;
+	margin-top: 10px;
+}
+
+/*<-----INTRO-------->
+*/.intro {
+	background-color: white;
+	height: 500px;
+/*	border-bottom: 30px solid #05b864;
+*/}
+
+.bio {
+	height: 400px;
+	width: auto;
+	display: inline-block;
+	text-align: center;
+	margin: 80px 0 0 0;
+}
+
+.bio h3 {
+	/*margin:	40px 0 10px 0;
+	padding: 10px;*/
+	color: #05b864;
+}
+
+.bio p {
+	margin: 0 0 50px 0;
+}
+
+.bio img {
+	height: 96px;
+	width: 96px;
+	border-radius: 110px;
+	border: 1.5px solid #555555;
+	margin: 1.5em auto;
+	-webkit-border-radius: 96px;
+	-moz-border-radius: 96px;
+	-ms-border-radius: 96px;
+	-o-border-radius: 96px;
+}
+/*<-------Profile-------->*/
+
+.profile {
+	height: 600px;
+	width: auto;
+	display: inline;
+	background: #05b864;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+.profile .row {
+	background: #05b864;
+	margin-right: 0;
+
+}
+
+.left img {
+	width: 300px;
+	max-width: 50%;
+	height: 200px;
+	max-height: 50%;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+}
+
+.right {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #05b864;
+	display: inline-block;
+	max-width: 100%;
+	max-height: 600px;
+	float: none;
+	vertical-align: center;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	font-family: "Comic Sans MS", cursive, sans-serif;	
+
+}
+.right h3 {
+	padding: 50px 20px 0px 20px;
+	clear: both;
+}
+
+.right p {
+	padding: 10px 20px 0px 20px;
+	clear: both;
+}
+
+
+/*<-------Mac Mock -------->*/
+.mac-mock {
+	background: url(../images/mac_mock_6.png) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+/*	border-bottom: 30px solid #05b864;
+*/	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+
+/*<-------WORK -------->*/
+.work {
+	background-color: #E8E8E7;
+	height: 500px;
+	border-bottom: 30px solid #05b864;
+
+}
+
+.work h2 {
+	padding: 0 0 25px 0;
+/*	border-bottom: 1px dotted gray;
+*/}
+
+.work h3 {
+	text-decoration: none;
+	color: #05b864;
+}
+
+.work p {
+	color: black;
+}
+
+.featured-work {
+	height: 400px;
+	width: auto;
+	display: inline;
+	text-align: center;
+	margin: 100px 0 0 0;
+
+}
+
+.featured-work img {
+	width: 175px;
+	max-width: 175px;
+	height: 125px;
+	max-height: 125px;
+	background-size: cover;
+	margin: 1.5em;
+	border: 1px solid #05b864;
+}
+
+/*<-------CONNECT-------->*/
+
+.connect {
+
+	background-color: white;
+	height: 300px;
+	border-bottom: 30px solid #05b864;
+
+}
+
+.connect h4 {
+	padding: 0 0 25px 0;
+	color: black;
+	text-decoration: none;
+}
+
+.details {
+	height: 150px;
+	width: 75%;
+	display: inline-block;
+	text-align: center;
+	margin: 2.5% 0 0 12.5%;
+}
+
+.connect img {
+	height: 96px;
+	width: 96px;
+	border-radius: 110px;
+	border: 1.5px solid #555555;
+	margin: 1.5em auto;
+	-webkit-border-radius: 96px;
+	-moz-border-radius: 96px;
+	-ms-border-radius: 96px;
+	-o-border-radius: 96px;
+}
+/*<-------FOOTER -------->*/
+.footer {
+	background-color: #E8E8E7;
+	height: 100px;
+
+}
+
+.footer p {
+	margin: 25px 0 0 0;
+}

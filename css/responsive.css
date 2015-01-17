@@ -1,0 +1,143 @@
+
+@media only screen and (max-width: 996px) {
+
+ 
+  .intro {
+    height: auto;
+    font-size: 1.5rem;
+    margin: 0; 
+  }
+
+  .work {
+     height: auto;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .connect {
+     height: auto;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .col-md-4 {
+    padding: 10px;
+  }
+
+  /*.col-md-4 {
+     -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }*/
+}
+
+@media only screen and (max-width: 320px) {
+  .first-section {
+    height: auto;
+    margin: 0;
+  }
+
+  .intro {
+    height: auto;
+    font-size: 1.5rem;
+    margin: 0; 
+  }
+
+.mac-mock {
+  height: auto;
+  margin: 0;
+}
+
+  .work {
+     height: auto;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .connect {
+     height: auto;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .col-md-4 {
+    padding: 10px;
+  }
+}
+
+/*@media only screen and (max-width: 800px) {
+
+  #navbar nav a {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+
+  .col-1, .col-2, .col-3 {
+    width: 100%;
+    margin-left: 0;
+    float: none;  
+  }
+
+  .border-right {
+    border: 0;
+  }
+
+  #details div {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .col-3 p {
+     -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  #menu-links {
+    display: none;
+    background: white;
+    clear: both;
+  }
+
+  #navbar nav a.menu-icon {
+    display: block;
+    float: right;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    width: auto;
+  }
+
+  #navbar nav a {
+    display: block;
+    width: 100%;
+    border-left: 0;
+    border-top: 1px dotted #ccc;
+    text-align: left;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    clear: both;
+  }
+
+  #logo {
+    padding: 60px 0 0;
+  }
+
+  #social {
+    top: 60px;
+  }
+
+}
+
+@media only screen and (max-width: 495px) {
+
+  #logo h2 {
+    visibility: hidden;
+  }
+}*/
+
