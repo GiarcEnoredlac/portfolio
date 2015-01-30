@@ -3,11 +3,23 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-      <title> Craig J. Calderone | Web Design, Web Development, Portfolio </title>
+      <title> Craig Calderone | Web Design, Web Development, Portfolio </title>
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/main.css">
       <link rel="stylesheet" href="css/responsive.css">
       <link rel="stylesheet" type="text/css" href="css/responsive.css">
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+      <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-58696845-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
   </head>
   <body>
   	<div class="first-section">
@@ -22,77 +34,82 @@
   		</div>
   	</div>
   	<div class="intro">
-  		<div class="container">
-  			<div class="bio">
-  				<!-- <h2>I'm Craig Calderone.</h2>
-  				<p>I'm a freelance web designer, and developer. I am currently working my way through the Udacity Front End Web Developer Nanodegree. </p> -->
-  				<div class="col-md-4">
+<!--   		<div class="container-fluid">
+ -->  			<div class="bio row">
+  				<div class="col-xs-12 col-sm-12 col-md-4">
   						<img src="images/Design.png">
   						<h3>Branding</h3>
   						<p>Your brand is the face of your business; the visual communication about who you are. How do your customers see you? How do you see yourself? I can help you focus, align, and advance those perceptions.</p>
   					</div>
-  				<div class="col-md-4">
+  				<div class="col-xs-12 col-sm-12 col-md-4">
   						<img src="images/branding.png">
   						<h3>Web Design</h3>
   						<p> A website is a necessity for almost every business or organization. Placing emphasis on users’ experience, I can help you acheive strong, intentional visuals across all screen sizes, mobile, tablet, or desktop.</p>
   				</div>
-  				<div class="col-md-4">
+  				<div class="col-xs-12 col-sm-12 col-md-4">
   						<img src="images/laptop.png">
   						<h3>Development</h3>
   						<p>I have experience with Wordpress, the most popular CMS, which powers over 20% of the web. With my custom themes you’ll have the perfect combination of a well designed website and an easy to use back-end.</p>
   				</div>
   			</div>
-  		</div>
-  	</div>
+<!--   		</div>
+ -->  	</div>
     <div class="profile">
-          <div class="row">
-            <div class="col-md-6 left">
+      <!-- <div class="container-fluid"> -->
+       <div class="row">
+            <div class="col-xs-12 col-sm-6 left">
               <div class="row">
-                <img class = "col-md-6"src="images/California_pano.png">
-                <img class = "col-md-6"src="images/golf.png">
-                <!-- <img class = "col-md-4"src="images/mac_mock_6.png"> -->
-              </div>
-              <div class="row">
-                <img class = "col-md-6"src="images/beach.png">
-                <img class = "col-md-6"src="images/mac_mock_6.png">
-                <!-- <img class = "col-md-4"src="images/mac_mock_6.png"> -->
-              </div>
-              <div class="row">
-                <img class = "col-md-6"src="images/mac_mock_6.png">
-                <img class = "col-md-6"src="images/mac_mock_6.png">
-                <!-- <img class = "col-md-4"src="images/mac_mock_6.png"> -->
+                <img class = "col-xs-12 col-sm-12 image-responsive"src="images/California_pano.png" >
+                <img class = "col-xs-12 col-sm-12 image-responsive"src="images/golf.png">
+              <!-- </div>
+              <div class="row"> -->
+                <img class = "col-xs-12 col-sm-12 image-responsive"src="images/big_sur_selfie.png">
+                <img class = "col-xs-2 image-responsive"src="images/beach.png">
+             <!--  </div>
+              <div class="row"> -->
+                <img class = "col-xs-12 col-sm-12 image-responsive"src="images/america.png">
+                <img class = "col-xs-6 col-sm-3 image-responsive"src="images/director_profile.png">
               </div>
             </div>
             <div class="col-md-6 right">
-              <h3>Hi, I'm Craig</h3>
+              <h3>Hi, I'm Craig.</h3>
               <p>I'm a tech enthusiast, traveler, amateur guitar player, thrill seeker, sporadic fitness buff and future motorcycle owner.
               </p>
               <p>Currently I'm working in B2B software sales for a public relations media intelligence firm. However, working with the web is my passion.</p>
               <p>I'm a native New Yorker, and currently still live in the area. I enjoy hanging with friends & family, learning new things and adventures. </p>
             </div>
           </div> <!-- row -->
+        <!-- </div>  --><!-- container-fluid -->
    </div> <!-- profile -->
     
-
+    <!-- WORK SECION -->
   	<div class="work">
   		<div class="container">
 	  		<div class="featured-work">
 	  			<h2>Featured Work</h2>
-	  			<div class="col-md-4">
-	  				<a href="https://github.com/GiarcEnoredlac/Udacity-P1/tree/master" target="_blank">
+          <div class="col-md-6 project-card">
+            <a href="http://www.orchardfc.com/" target="_blank">
+            <img src="images/orchardFC-thumb.png" alt="Orchard FC">
+            <h3>Orchard FC Soccer Club</h3>
+            <p>Designed for my club soccer team.</p>
+            </a>
+          </div>
+          <div class="col-md-6 project-card">
+            <a href="http://flatironproject-exceptional-realty.bitballoon.com/" target="_blank">
+            <img src="images/Exceptional-realty.png" alt="Exceptional Realty">
+            <h3>Exceptional Realty</h3>
+            <p>Capstone project for Flatiron School.</p>
+            </a>
+          </div>
+
+	  			<div class="col-md-6 project-card">
+	  				<a href="http://udacity-project-1.bitballoon.com/" target="_blank">
 	  				<img src="images/p1-mockup.png" alt="Udacity">
 	  				<h3>Udacity Mockup Project</h3>
             <p>Project 1 for Udacity Nanodegree</p>
 	  				</a>
 	  			</div>
-	  			<div class="col-md-4">
-	  				<a href="http://www.orchardfc.com/" target="_blank">
-	  				<img src="images/orchardFC-thumb.png" alt="Orchard FC">
-	  				<h3>Orchard FC Soccer Club</h3>
-	  				<p>Designed for a club soccer team where I play goalie.</p>
-	  				</a>
-	  			</div>
-	  			<div class="col-md-4">
+	  			<div class="col-md-6 project-card">
 	  				<a href="https://www.behance.net/CraigCalde" target="_blank">
 	  				<img src="images/Behance-Thumb.png">
 	  				<h3>Behance Portfolio</h3>
@@ -110,20 +127,20 @@
     </div>
 
   	<div class="connect">
-  		<div class="container">
+  		<div class="container-fluid">
   				<div class="row details">
   					<h2>Connect</h2>
-  					<div class="col-md-4">
+  					<div class="col-xs-12 col-sm-12 col-md-4">
   						<a href="https://github.com/GiarcEnoredlac" target="_blank"><img src="images/github.png">
   						<h4>Github</h4>
   						</a>
   					</div>
-  					<div class="col-md-4">
+  					<div class="col-xs-12 col-sm-12 col-md-4">
   						<a href="http://www.linkedin.com/in/craigcalderone" target="_blank"><img src="images/linkedin.png">
   						<h4>LinkedIn</h4>
   						</a>
   					</div>
-  					<div class="col-md-4">
+  					<div class="col-xs-12 col-sm-12 col-md-4">
   						<a href="https://drive.google.com/file/d/0B2x_vfqMeSBDc2RET01IZkhFYW8/view?usp=sharing" target="_blank"><img src="images/resume.png">
   						<h4>Resume</h4>
   						</a>
@@ -133,14 +150,13 @@
   	</div>
 
   	<div class="footer">
-		<div class="container">
-			<div class="row text-center">
+		<div class="container-fluid">
+			<div class="row">
 				<p>&copy 2015 Craig J. Calderone</p>
 			</div>
 		</div>
   			
   	</div>
   	
-
   </body>
 </html>

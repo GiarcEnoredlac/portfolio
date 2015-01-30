@@ -1,22 +1,23 @@
 /* main CSS */
 
-/**    {
+*    {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
      }
-*/
+
 body {
     font-family: "Noteworthy light", Verdana, sans-serif;
     margin: auto;
 
 }
 
-h2 {
-	font-family: "FreightSans Pro", "Helvetica Neue", Helvetica, Sans-Serif;
-	color: #05b864;
+h2, h3 {
+font-family: "Comic Sans MS", Garamond, sans-serif;
 }
+
+
 /*<-------JUMBO -------->*/
 .first-section {
 	background: url(../images/jumbotron.png) no-repeat center center;
@@ -41,6 +42,7 @@ h2 {
 
 .box h2 {
 	font-size: 4.2rem;
+	color: #05b864;
 
 }
 .box h3 {
@@ -110,13 +112,19 @@ h2 {
 }
 
 .left img {
-	width: 300px;
-	max-width: 50%;
-	height: 200px;
-	max-height: 50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
 	margin: 0;
 	padding: 0;
 	background: transparent;
+	text-align: center;
 }
 
 .right {
@@ -128,7 +136,7 @@ h2 {
 	background: #05b864;
 	display: inline-block;
 	max-width: 100%;
-	max-height: 600px;
+	max-height: auto;
 	float: none;
 	vertical-align: center;
 	clear: both;
@@ -136,7 +144,7 @@ h2 {
 	padding: 0;
 	color: white;
 	font-size: 16px;
-	font-family: "Comic Sans MS", cursive, sans-serif;	
+	font-family: "Comic Sans MS", Garamond, sans-serif;	
 
 }
 .right h3 {
@@ -150,29 +158,20 @@ h2 {
 }
 
 
-/*<-------Mac Mock -------->*/
-.mac-mock {
-	background: url(../images/mac_mock_6.png) no-repeat center center;
-	background-size: cover;
-	height: 500px;
-/*	border-bottom: 30px solid #05b864;
-*/	display: block;
-	width: 100%;
-	max-width: 100%;
-}
-
 /*<-------WORK -------->*/
 .work {
 	background-color: #E8E8E7;
-	height: 500px;
-	border-bottom: 30px solid #05b864;
-
+	height: 700px;
+/*	border-bottom: 30px solid #05b864;
+*/
 }
 
 .work h2 {
 	padding: 0 0 25px 0;
 /*	border-bottom: 1px dotted gray;
-*/}
+*/
+	color: #05b864;
+}
 
 .work h3 {
 	text-decoration: none;
@@ -188,7 +187,7 @@ h2 {
 	width: auto;
 	display: inline;
 	text-align: center;
-	margin: 100px 0 0 0;
+	margin: 100px 0 10px 0;
 
 }
 
@@ -202,14 +201,29 @@ h2 {
 	border: 1px solid #05b864;
 }
 
+.project-card {
+	background: #fafafb;
+	padding: 15px;
+	margin: 0 0 10px 0;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+/*<-------Mac Mock -------->*/
+.mac-mock {
+	background: url(../images/mac_mock_6.png) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+/*	border-bottom: 30px solid #05b864;
+*/	display: block;
+	width: 100%;
+	max-width: 100%;
+}
 /*<-------CONNECT-------->*/
 
 .connect {
-
 	background-color: white;
 	height: 300px;
 	border-bottom: 30px solid #05b864;
-
 }
 
 .connect h4 {
@@ -218,10 +232,13 @@ h2 {
 	text-decoration: none;
 }
 
+.connect h2 {
+	color: #05b864;
+}
+
 .details {
-	height: 150px;
+	height: auto;
 	width: 75%;
-	display: inline-block;
 	text-align: center;
 	margin: 2.5% 0 0 12.5%;
 }
@@ -240,10 +257,11 @@ h2 {
 /*<-------FOOTER -------->*/
 .footer {
 	background-color: #E8E8E7;
-	height: 100px;
+	height: auto;
+	text-align: center;
 
 }
 
 .footer p {
-	margin: 25px 0 0 0;
+	margin: 25px 0 25px 0;
 }
