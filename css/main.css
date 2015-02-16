@@ -20,11 +20,11 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 
 /*<-------JUMBO -------->*/
 .first-section {
-	background: url(../images/polygon_background/1.jpg) no-repeat center center;
+	background: url(../images/Twitter_Cover.png) no-repeat center center;
 	background-size: cover;
 	height: 500px;
-	border-bottom: 30px solid #05b864;
-	display: block;
+/*	border-bottom: 30px solid #05b864;
+*/	display: block;
 }
 
 .box {
@@ -32,7 +32,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	margin-left: auto;
 	text-align: center;
     position: relative;
-    color: black;
+    color: white;
 }
 
 .box h1 {
@@ -53,7 +53,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 
 .btn-success {
 	background-color: #05b864;
-	margin-top: 10px;
+	margin: 20px 0 0 0;
 	padding: 10px 30px 10px 30px;
 	/*font-family: "Bilbo Swash Caps", Garamond, sans-serif;*/
 }
@@ -148,17 +148,17 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	padding: 0;
 	color: white;
 	font-size: 18px;
-	font-family: "Comic Sans MS", Garamond, sans-serif;	
+    font-family: "Noteworthy light", Verdana, sans-serif;
 
 }
 .right h3 {
-	padding: 50px 20px 0px 20px;
+	padding: 50px 20px 0px 0px;
 	clear: both;
 	font-size: 36px;
 }
 
 .right p {
-	padding: 10px 20px 0px 20px;
+	padding: 10px 20px 0px 0px;
 	clear: both;
 }
 
