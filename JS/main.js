@@ -2,6 +2,14 @@
 
 $(document).ready(function(){
 
-	$('.col-md-4').mouseenter()
+	$('project-card').hover(
+    function(){
+        $(this).addClass('highlight');
+    
+    },
+    function(){
+        $(this).removeClass('highlight');
+    }
+  );
 
 });

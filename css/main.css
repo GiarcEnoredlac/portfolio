@@ -220,6 +220,9 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	border-radius: 3px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
+.highlight {
+	background: #05b864;
+}
 /*<-------Mac Mock -------->*/
 .mac-mock {
 	background: url(../images/mac_mock_6.png) no-repeat center center;
