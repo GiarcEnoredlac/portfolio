@@ -217,7 +217,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	background: #fafafb;
 	padding: 15px;
 	margin: 0 0 10px 0;
-	border-radius: 3px;
+	border-radius: 50px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 .highlight {
