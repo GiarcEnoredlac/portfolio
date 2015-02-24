@@ -42,7 +42,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 
 .box h2 {
 	font-size: 4.2rem;
-	color: #05b864;
+	color: red;/*#05b864;*/
 	font-size: 36px;
 }
 .box h3 {
