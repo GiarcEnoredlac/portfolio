@@ -17,12 +17,35 @@ h1, h2, h3{
 font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 }
 
+/*<-------NAVIGATION -------->*/
+
+.nav a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	display: inline;
+	background: #05b864;
+	margin: -10px;
+}
+.nav li {
+	display: inline-block;
+	padding: 20px;
+
+}
+.navbar {
+	background: rgba(208, 206, 195, 0.6);
+	display: inline;
+
+}
+.active {
+	background: #05b864;
+}
 
 /*<-------JUMBO -------->*/
-.first-section {
+#first-section {
 	background: url(../images/Twitter_Cover.png) no-repeat center center;
 	background-size: cover;
-	height: 500px;
+	height: 700px;
 /*	border-bottom: 30px solid #05b864;
 */	display: block;
 }
@@ -36,7 +59,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 }
 
 .box h1 {
-	margin: 120px 0 0 0;
+	margin: 150px 0 0 0;
 	font-size: 65px;
 }
 
@@ -59,12 +82,11 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 }
 
 /*<-----INTRO-------->
-*/.intro {
+*/#intro {
 	background-color: white;
 	height: 500px;
 /*	border-bottom: 30px solid #05b864;
 */}
-
 .bio {
 	height: 400px;
 	width: auto;
@@ -72,7 +94,10 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	text-align: center;
 	margin: 80px 0 0 0;
 }
-
+.bio h2 {
+	color: #05b864;
+	font-size: 36px;
+}
 .bio h3 {
 	/*margin:	40px 0 10px 0;
 	padding: 10px;*/
@@ -96,7 +121,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 }
 /*<-------Profile-------->*/
 
-.profile {
+#profile {
 	height: 600px;
 	width: auto;
 	display: inline;
@@ -109,7 +134,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 
 }
 
-.profile .row {
+#profile .row {
 	background: #05b864;
 	margin-right: 0;
 
@@ -164,7 +189,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 
 
 /*<-------WORK -------->*/
-.work {
+#work {
 	background: url(../images/polygon_background/3.jpg) no-repeat center center;
 	background-size: cover;
 	height: 700px;
@@ -176,7 +201,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 */
 }
 
-.work h2 {
+#work h2 {
 	padding: 0 0 25px 0;
 /*	border-bottom: 1px dotted gray;
 */
@@ -184,13 +209,13 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	font-size: 48px;
 }
 
-.work h3 {
+#work h3 {
 	text-decoration: none;
 	color: #05b864;
 	font-size: 24px;
 }
 
-.work p {
+#work p {
 	color: black;
 }
 
@@ -236,7 +261,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 
 /*<-------CONTACT FORM-------->*/
 
-.contact-form {
+#contact-form {
 	background: url(../images/polygon_background/10.jpg) no-repeat center center;;
 	height: 270px;
 	font-family: "Bilbo Swash Caps", Garamond, sans-serif;

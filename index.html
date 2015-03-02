@@ -21,11 +21,22 @@
       ga('send', 'pageview');
 
     </script>
-    <script type='text/javascript' src='JS/main.js'></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- <script type='text/javascript' src='JS/main.js'></script>
+    // <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
   </head>
   <body>
-  	<div class="first-section">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+       <ul class="nav navbar-right">
+          <li role="presentation" class='active'><a href="#intro">What I Do</a></li>
+          <li role="presentation" class='active'><a href="#profile">Who I am</a></li>
+          <li role="presentation" class='active'><a href="#work">Featured Work</a></li>
+          <li role="presentation" class='active'><a href="#contact-form">Connect</a></li>
+      </ul>
+      </div>
+    </nav>
+<!-- FIRST SECTION -->
+  	<div id="first-section">
   		<div class="container">
   			<div class="box">
   				<h1>Craig Calderone</h1>
@@ -36,9 +47,10 @@
 
   		</div>
   	</div>
-  	<div class="intro">
+  	<div id="intro">
 <!--   		<div class="container-fluid">
  -->  			<div class="bio row">
+               <h2>What I do</h2>
   				    <div class="col-xs-12 col-sm-12 col-md-4">
   						<img src="images/Design.png">
   						<h3>Branding</h3>
@@ -57,7 +69,7 @@
   			</div>
 <!--   		</div>
  -->  	</div>
-    <div class="profile">
+    <div id="profile">
       <!-- <div class="container-fluid"> -->
        <div class="row">
             <div class="col-xs-12 col-sm-6 left">
@@ -86,7 +98,7 @@
    </div> <!-- profile -->
     
     <!-- WORK SECION -->
-  	<div class="work">
+  	<div id="work">
   		<div class="container">
 	  		<div class="featured-work">
 	  			<h2>Featured Work</h2>
@@ -128,7 +140,8 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid row contact-form">
+    <div id="contact-form">
+    <div class="container-fluid row">
     <div class="col-sm-6 col-sm-offset-3">
         <div class="center">
           <h1 class="">Say Hello</h1>
@@ -155,6 +168,7 @@
           </div><!-- end row -->
           <input type="submit" value="Send It" class="btn btn-transparent btn-lg btn-block">
         </form>
+        </div>
         </div> <!-- contact form -->
       </div> <!-- container -->
       <div class="connect">
@@ -177,32 +191,9 @@
   						</a>
   					</div>
           </div>
-            <!-- <div class="row details col-xs-6 col-sm-6 col-md-6">
-                <div id="wufoo-muiq85i02obtni">
-                Fill out my <a href="https://craigcalderone.wufoo.com/forms/muiq85i02obtni">online form</a>.
-                </div>
-                <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"><a href="http://www.wufoo.com"></a></div>
-                <script type="text/javascript">var muiq85i02obtni;(function(d, t) {
-                var s = d.createElement(t), options = {
-                'userName':'craigcalderone',
-                'formHash':'muiq85i02obtni',
-                'autoResize':true,
-                'height':'557',
-                'async':true,
-                'host':'wufoo.com',
-                'header':'show',
-                'ssl':true};
-                s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-                s.onload = s.onreadystatechange = function() {
-                var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                try { muiq85i02obtni = new WufooForm();muiq85i02obtni.initialize(options);muiq85i02obtni.display(); } catch (e) {}};
-                var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-                })(document, 'script');</script>
-            </div>
-  				</div> -->
   		</div>
   	</div> <!-- connect -->
-
+    
   	<div class="footer">
   		<div class="container-fluid">
   			<div class="row">
@@ -210,7 +201,8 @@
   			</div> <!-- row -->
   		</div> <!-- container -->
   	</div> <!-- Footer -->
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <!-- 	// <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   //  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
   </body>
 </html>
