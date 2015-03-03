@@ -1,20 +1,20 @@
 
 @media only screen and (max-width: 996px) {
 
-  .intro {
+  #intro {
     height: 700px;
     font-size: 1.5rem;
     max-width: 100%;
     padding: 0;
     width: auto;
     max-height: 100%;
-    margin: 0 0 100% 0;
+    margin: 0 0 75% 0;
     display: inline-block;
     clear: both;
   }
 
-  .work {
-     height: auto;
+  #work {
+    height: auto;
     font-size: 1.5rem;
     margin: 0;
   }
@@ -29,14 +29,14 @@
     padding: 10px 0 0 0;
   }
 
-  .profile {
+  #profile {
     height: auto;
     font-size: 1.5rem;
     margin: 0; 
     background: none;
   }
-  .profile .row {
-    background: white;
+  #profile .row {
+    background: #eee;
     text-align: center;
     max-width: 100%;
     margin: 0;
@@ -66,15 +66,22 @@
     background: white;
     text-align: center;
   }
+#contact-form {
+    height: auto;
+    font-size: 1.5rem;
+    margin: 0 0 15px 0;
+  
+}
+
 }
 
 @media only screen and (max-width: 320px) {
-  .first-section {
+  #first-section {
     height: auto;
     margin: 0;
   }
 
- .intro {
+ #intro {
     height: 1000px;
     font-size: 1.5rem;
     max-width: 100%;
@@ -86,8 +93,8 @@
     clear: both;
   }
 
-  .work {
-     height: auto;
+  #work {
+    height: auto;
     font-size: 1.5rem;
     margin: 0;
   }
@@ -102,13 +109,13 @@
     padding: 10px 0 20px 0;
   }
 
-  .profile {
+  #profile {
     height: auto;
     font-size: 1.5rem;
     margin: 0; 
     background: none;
   }
-  .profile .row {
+  #profile .row {
     background: white;
     text-align: center;
     max-width: 100%;
@@ -119,7 +126,7 @@
     max-height: 100%;
   }
 
-  .profile img {
+  #profile img {
     width: auto;
     max-width: 100%;
     height: auto;
@@ -137,6 +144,12 @@
     background: white;
     text-align: center;
   }
+#contact-form {
+    height: auto;
+    font-size: 1.5rem;
+    margin: 0 0 15px 0;
+  
+}
 
 .footer {
   width: auto;
@@ -148,14 +161,14 @@
 
 }
 
-/*@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
 
   #navbar nav a {
     font-size: 0.9em;
   }
 }
 
-@media only screen and (max-width: 750px) {
+/*@media only screen and (max-width: 750px) {
 
   .col-1, .col-2, .col-3 {
     width: 100%;
@@ -177,7 +190,7 @@
     -webkit-column-count: 1;
     column-count: 1;
   }
-}
+}*/
 
 @media only screen and (max-width: 700px) {
 
@@ -187,7 +200,7 @@
     clear: both;
   }
 
-  #navbar nav a.menu-icon {
+  .navbar nav a.menu-icon {
     display: block;
     float: right;
     font-size: 1.5em;
@@ -195,7 +208,7 @@
     width: auto;
   }
 
-  #navbar nav a {
+  .navbar nav a {
     display: block;
     width: 100%;
     border-left: 0;
@@ -207,20 +220,20 @@
     clear: both;
   }
 
-  #logo {
+  /*#logo {
     padding: 60px 0 0;
   }
 
   #social {
     top: 60px;
-  }
+  }*/
 
 }
 
-@media only screen and (max-width: 495px) {
+/*@media only screen and (max-width: 495px) {
 
   #logo h2 {
     visibility: hidden;
   }
-}*/
-
+}
+*/
