@@ -8,9 +8,7 @@
      }
 
 body {
-    font-family: "Noteworthy light", Verdana, sans-serif;
-    margin: auto;
-
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3{
@@ -35,13 +33,14 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 .navbar {
 	background: rgba(208, 206, 195, 0.6);
 	display: inline;
+	width: auto;
 
 }
 .active {
 	background: #05b864;
 }
 
-/*<-------JUMBO -------->*/
+/*<-------FIRST SECTION -------->*/
 #first-section {
 	background: url(../images/Twitter_Cover.png) no-repeat center center;
 	background-size: cover;
@@ -59,7 +58,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 }
 
 .box h1 {
-	margin: 150px 0 0 0;
+	margin: 200px 0 0 0;
 	font-size: 65px;
 }
 
@@ -77,7 +76,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 .btn-success {
 	background-color: #05b864;
 	margin: 20px 0 0 0;
-	padding: 10px 30px 10px 30px;
+	padding: 10px 30px;
 	/*font-family: "Bilbo Swash Caps", Garamond, sans-serif;*/
 }
 
@@ -173,8 +172,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	padding: 0;
 	color: white;
 	font-size: 18px;
-    font-family: "Noteworthy light", Verdana, sans-serif;
-
+	font-family: 'Open Sans', sans-serif;
 }
 .right h3 {
 	padding: 50px 20px 0px 0px;
