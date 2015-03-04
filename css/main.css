@@ -24,17 +24,21 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	display: inline;
 	background: #05b864;
 	margin: -10px;
+	border-radius: 100px;
 }
 .nav li {
 	display: inline-block;
 	padding: 20px;
-
+	float: left;
 }
+
 .navbar {
 	background: rgba(208, 206, 195, 0.6);
 	display: inline;
 	width: auto;
-
+}
+.navbar-left {
+	margin: 0 0 0 25%;
 }
 .active {
 	background: #05b864;
