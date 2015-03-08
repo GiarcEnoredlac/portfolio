@@ -62,9 +62,11 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 }
 
 .box h1 {
-	margin: 200px 0 0 0;
-	font-size: 65px;
-}
+	margin: 250px 0 0 0;
+	font-size: 60px;
+	text-transform: uppercase;
+/*	color: #05b864;
+*/}
 
 .box h2 {
 	font-size: 4.2rem;
@@ -74,7 +76,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 .box h3 {
 	font-size: 1.68rem;
 	font-size: 24px;
-
+	color: white;
 }
 
 .btn-success {
@@ -246,6 +248,9 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	margin: 0 0 10px 0;
 	border-radius: 50px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+.project-card:hover{
+	background-color: gray;
 }
 .highlight {
 	background: #05b864;
