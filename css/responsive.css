@@ -1,9 +1,12 @@
 
 @media only screen and (max-width: 996px) {
 
+.navbar-left {
+  margin: 0 0 0 15%;
+}
   #intro {
-    height: 700px;
-    font-size: 1.5rem;
+    height: 400px;
+    font-size: 1.75rem;
     max-width: 100%;
     padding: 0;
     width: auto;
@@ -79,6 +82,7 @@
   #first-section {
     height: auto;
     margin: 0;
+    font-size: 1rem;
   }
 
  #intro {
@@ -163,8 +167,14 @@
 
 @media only screen and (max-width: 800px) {
 
-  #navbar nav a {
-    font-size: 0.9em;
+  nav {
+    visibility: hidden;
+  }
+  
+  .box h1 {
+    font-size: 3.2em;
+    margin: 50px 0 0 0;
+    color: #05b864;
   }
 }
 
@@ -202,10 +212,11 @@
 
   .navbar nav a.menu-icon {
     display: block;
-    float: right;
+    float: left;
     font-size: 1.5em;
     padding: 10px 20px;
     width: auto;
+    height: 30px
   }
 
   .navbar nav a {

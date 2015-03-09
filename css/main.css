@@ -43,6 +43,13 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 .active {
 	background: #05b864;
 }
+#navbar nav a.menu-icon {
+  display: none;
+}
+.main-icon {
+	display: none;
+	visibility: none;
+}
 
 /*<-------FIRST SECTION -------->*/
 #first-section {
