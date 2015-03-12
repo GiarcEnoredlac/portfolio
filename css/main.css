@@ -280,7 +280,18 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	height: 270px;
 	font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	text-align: center;
+	padding: 15px 0 0 0;
+	font-size: 16px;
+}
+
+#mc_embed_signup {
+	text-align: center;
 	padding: 20px 0 0 0;
+
+}
+input {
+	padding: 10px 20px 0 20px;
+	text-align: center;
 }
 
 

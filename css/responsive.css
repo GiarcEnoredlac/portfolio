@@ -76,9 +76,14 @@
   
 }
 
+.row {
+    margin-right: 0;
+  }
 }
 
 @media only screen and (max-width: 320px) {
+  
+
   #first-section {
     height: auto;
     margin: 0;
@@ -129,6 +134,7 @@
     width: auto;
     max-height: 100%;
   }
+  
 
   #profile img {
     width: auto;
@@ -162,8 +168,11 @@
   max-height: 100%;
   text-align: center;
 }
-
+.row {
+    margin-right: 0;
+  }
 }
+
 
 @media only screen and (max-width: 800px) {
 
@@ -204,6 +213,9 @@
 
 @media only screen and (max-width: 700px) {
 
+   .row {
+    margin-right: 0;
+  }
   #menu-links {
     display: none;
     background: white;
