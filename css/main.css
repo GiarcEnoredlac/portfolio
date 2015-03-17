@@ -9,6 +9,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 
 h1, h2, h3{
@@ -23,7 +24,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	color: white;
 	display: inline;
 	background: #05b864;
-	margin: -10px;
+	margin: 0;
 	border-radius: 100px;
 }
 .nav li {
@@ -58,6 +59,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	height: 700px;
 /*	border-bottom: 30px solid #05b864;
 */	display: block;
+	margin-right: -15px;
 }
 
 .box {
@@ -96,11 +98,12 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 /*<-----INTRO-------->
 */#intro {
 	background-color: white;
-	height: 500px;
+	height: 100%;
+	margin-right: -15px;
 /*	border-bottom: 30px solid #05b864;
 */}
 .bio {
-	height: 400px;
+	height: 100%;
 	width: auto;
 	display: inline-block;
 	text-align: center;
@@ -148,7 +151,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 
 #profile .row {
 	background: #05b864;
-	margin-right: 0;
+	margin-right: -15px;
 
 }
 
@@ -204,11 +207,12 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 #work {
 	background: url(../images/polygon_background/3.jpg) no-repeat center center;
 	background-size: cover;
+	margin-right: -15px;
+/*	height: 100%;
+*//*	border-bottom: 30px solid #05b864;
+*/	/*display: block;
+	background-color: #E8E8E7;*/
 	height: 700px;
-/*	border-bottom: 30px solid #05b864;
-*/	display: block;
-	/*background-color: #E8E8E7;
-	height: 700px;*/
 /*	border-bottom: 30px solid #05b864;
 */
 }
@@ -232,28 +236,29 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 }
 
 .featured-work {
-	height: 400px;
-	width: auto;
+	height: 700px;
+	width: 100%;
 	display: inline;
 	text-align: center;
 	margin: 100px 0 10px 0;
 
 }
 
-.featured-work img {
-	width: 175px;
-	max-width: 175px;
-	height: 125px;
-	max-height: 125px;
+.item img {
+	width: 500px;
+	max-width: 500px;
+	height: 500px;
+	max-height: 500px;
 	background-size: cover;
-	margin: 1.5em;
-	border: 1px solid #05b864;
+	margin: 0 auto;
+/*	border: 1px solid #05b864;
+*/	text-align: center;
 }
 
 .project-card {
-	background: #fafafb;
-	padding: 15px;
-	margin: 0 0 10px 0;
+/*	background: #fafafb;
+*/	padding: 15px;
+	margin: 0 0 5px 0;
 	border-radius: 50px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
@@ -263,6 +268,10 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 .highlight {
 	background: #05b864;
 }
+.active {
+	background-color: transparent;
+	margin: 0 auto;
+}
 /*<-------Mac Mock -------->*/
 .mac-mock {
 	background: url(../images/mac_mock_6.png) no-repeat center center;
@@ -270,8 +279,7 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	height: 500px;
 /*	border-bottom: 30px solid #05b864;
 */	display: block;
-	width: 100%;
-	max-width: 100%;
+	margin-right: -15px;
 }
 
 /*<-------CONTACT FORM-------->*/
@@ -281,8 +289,11 @@ font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	height: 270px;
 	font-family: "Bilbo Swash Caps", Garamond, sans-serif;
 	text-align: center;
-	padding: 15px 0 0 0;
 	font-size: 16px;
+}
+
+#contact-form .row {
+	margin-right: -15px;
 }
 
 #mc_embed_signup {
@@ -301,6 +312,7 @@ input {
 .connect {
 	background-color: white;
 	height: 300px;
+	margin-right: -15px;
 /*	border-bottom: 30px solid #05b864;
 */}
 
@@ -321,6 +333,9 @@ input {
 	margin: 2.5% 0 0 12.5%;
 	padding: 0 0 50px 0;
 }
+.connect .button {
+	padding: 0 25px 0 25px;
+}
 
 
 .connect img {
@@ -339,7 +354,7 @@ input {
 	background-color: #E8E8E7;
 	height: auto;
 	text-align: center;
-
+	margin-right: -15px;
 }
 
 .footer p {
