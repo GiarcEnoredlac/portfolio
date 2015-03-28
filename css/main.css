@@ -286,10 +286,14 @@ h1, h2, h3{
 
 #contact-form {
 	background: url(../images/polygon_background/10.jpg) no-repeat center center;;
-	height: 270px;
-	font-family: "Bilbo Swash Caps", Garamond, sans-serif;
+	height: 300px;
+	font-family: Garamond, sans-serif;
 	text-align: center;
 	font-size: 16px;
+	padding: 5px;
+}
+#mce-MMERGE3 {
+	padding: 25px;
 }
 
 #contact-form .row {
